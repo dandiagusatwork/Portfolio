@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
@@ -28,15 +29,18 @@ const Clients = () => {
           {companies.map((company) => (
             <React.Fragment key={company.id}>
               <div className="flex md:max-w-60 max-w-32 gap-2">
-                <img
+                <Image
                   src={company.img}
                   alt={company.name}
+                  width={40} // sesuaikan dengan ukuran w-5 (5rem x 16px = 80px)
+                  height={40} // tambahkan juga height agar gambar tetap proporsional
                   className="md:w-10 w-5"
                 />
-                <img
+                <Image
                   src={company.nameImg}
                   alt={company.name}
                   width={company.id === 4 || company.id === 5 ? 100 : 150}
+                  height={company.id === 4 || company.id === 5 ? 40 : 60} // tambahkan height agar proporsional
                   className="md:w-24 w-20"
                 />
               </div>
