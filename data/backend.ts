@@ -1,34 +1,25 @@
 export const projects = [
   {
     id: 1,
-    title: "Pertiga App ",
-    des: "This site provides an agricultural and fisheries marketplace, including products, prices and promotions.",
-    img: "/pertiga.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/js.png"],
-    link: "https://pertiga-app.vercel.app/",
+    title: "GoWedding ",
+    des: "an event management and wedding organizer system built using CodeIgniter 4 (CI4). various application features, such as managing event details, client information, budgets, and schedules, designed to simplify the planning and organization of events such as weddings..",
+    img: "/Gowedding.png",
+    iconLists: ["/ci4.svg", "/boostrap.jpeg"],
+    link: "https://github.com/dawijaya/ci4-gowedding",
   },
-  {
-    id: 2,
-    title: "Admin Lopectech ",
-    des: "This website provides an admin interface to manage products, advertisements and other content displayed.",
-    img: "/lopectech.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/js.png"],
-    link: "https://dev-admin.lopectech.com/",
-  },
-  {
-    id: 3,
-    title: "Win 81 Automotive",
-    des: "provides car spare parts with a guarantee, including online purchasing services.",
-    img: "/win.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/js.png"],
-    link: "https://winautomotive.id/",
-  },
+
   {
     id: 4,
     title: "Coming Soon",
     des: "Stay tuned for more of my work",
     img: "/coming.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/js.png", "/wp.jpeg"],
+    iconLists: [
+      "/node.png",
+      "/ci4.svg",
+      "/express.png",
+      "/laravel.png",
+      "/api.png",
+    ],
     link: "#",
   },
 ];
