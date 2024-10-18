@@ -25,22 +25,6 @@ export const projects = [
   },
   {
     id: 4,
-    title: "MotorCheckUp",
-    des: "This site provides a quick test of vehicle engine condition through oil drop analysis, with online evaluation.",
-    img: "/motor.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/js.png"],
-    link: "https://motorcheckup.sg/",
-  },
-  {
-    id: 5,
-    title: "The ISUN Academic ",
-    des: "This site offers personalized education programs to improve children's achievement through fun learning methods.",
-    img: "/isun.png",
-    iconLists: ["/wp.jpeg"],
-    link: "https://isunworld.com/",
-  },
-  {
-    id: 6,
     title: "Coming Soon",
     des: "Stay tuned for more of my work",
     img: "/coming.png",

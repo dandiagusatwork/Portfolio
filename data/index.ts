@@ -8,14 +8,17 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client collaboration, fostering open communication",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4  lg:min-h-[60vh]",
+    width: 500,
+    height: 300,
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
     spareImg: "",
   },
+
   {
     id: 2,
     title: "I'm very flexible with time zone communications",
@@ -119,95 +122,96 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "As Chair of the Computer Network Creation Group in the context of college assignments, I am responsible for leading the team in designing and implementing a network that is efficient, safe, and in accordance with project needs. My role includes setting strategy, coordinating the team, as well as ensuring the success of each stage, from planning to testing. By leveraging the latest technology and prioritizing security, I also help resolve technical challenges that arise during the network creation process.",
     name: "Dandi Agus Wijaya, S.Kom.",
-    title: "Director of AlphaStream Technologies",
+    title: "Chair of the Computer Network Creation Group",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "As Chair of the Evening Informatics Engineering Class, I am responsible for leading and coordinating the academic activities of the evening Informatics Engineering class. My role includes ensuring that lectures run according to the curriculum, supporting collaboration between lecturers and students, and helping to create a conducive learning environment even within a more flexible schedule. I also organize meeting schedules, overcome problems faced by evening class students, and maintain optimal learning quality.",
     name: "Dandi Agus Wijaya, S.Kom.",
-    title: "Director of AlphaStream Technologies",
+    title: "Chair of the Evening Informatics Engineering Class",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "As a Participant in the Frontend Development (JavaScript) Program, I actively participate in training that focuses on developing web interfaces using JavaScript. In this program, I learned various modern concepts and techniques such as DOM manipulation, event handling, asynchronous programming, and the latest JavaScript frameworks. My participation in this program aims to deepen my understanding in building interactive and responsive web applications.",
     name: "Dandi Agus Wijaya, S.Kom.",
-    title: "Director of AlphaStream Technologies",
+    title: "Participant in the Frontend Development (JavaScript) Program",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "As a participant in the Public Speaking Seminar: Participants Speak Officially, I had the opportunity to learn effective communication techniques in public. This seminar focuses on developing formal speaking skills, including audience control, speech structure, and appropriate use of body language. My participation in this seminar aims to improve my ability to speak in public more confidently and professionally.",
     name: "Dandi Agus Wijaya, S.Kom.",
-    title: "Director of AlphaStream Technologies",
+    title:
+      "Participate in Public Speaking Seminar Participants Speak Officially",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "I participated in the Smartpath Webinar which discussed strategies for a successful career in the IT field. In this webinar, I gained valuable insight into developing technical skills, building a professional network, and how to take advantage of opportunities in the ever-evolving technology industry. This webinar also emphasizes the importance of adapting to the latest technology trends and developing relevant soft skills to achieve long-term success in the IT world.",
     name: "Dandi Agus Wijaya, S.Kom.",
-    title: "Director of AlphaStream Technologies",
+    title: "Participate in the Smartpath Webinar",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Lopectech",
+    img: "/logolopectech.png",
+    nameImg: "/logolopectech2.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "win 81 Automotive",
+    img: "/logowin.webp",
+    nameImg: "/logowin2.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "MotorCheckup",
+    img: "/logomotor.webp",
+    nameImg: "/logomotor2.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Isun Education",
+    img: "/logoisun.png",
+    nameImg: "/logoisun2.png",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Dwidaya Pertiga",
+    img: "/logopertiga.png",
+    nameImg: "/logopertiga2.png",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer - Suamtera Sistem Digital ",
+    desc: "Assisted in the development of a web-based platform using NextJs and TailwindCss, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "FullStack Engineer - Dwidaya Pertiga",
+    desc: "As a FullStack Engineer at Dwidaya Pertiga, I am responsible for handling the entire web development process, from interface design (UI/UX) to database management. I designed and implemented the entire web application, ensuring a responsive and functional appearance, and integrating the backend with a database I built myself. This experience strengthened my ability to handle various aspects of web development, both frontend and backend, with a focus on efficiency and scalability.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Internship as a teacher and IT staff at a junior high school",
+    desc: "During my internship as a teacher and IT staff at a junior high school, I taught ICT subjects, guiding students in understanding the basics of information technology. Apart from that, I am also responsible for maintaining school computers so that they are always ready for use in teaching and learning activities. As part of IT development, I succeeded in creating a QR Code-based attendance application that facilitates student attendance quickly and efficiently. This experience strengthened my skills in teaching, managing technology devices, and developing IT-based solutions.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Backend at GoWedding",
+    desc: "As a Backend Developer at GoWedding, I built a wedding organizer and event management system using CodeIgniter 4 (CI4). The system includes features such as managing event details, client information, budgeting, and scheduling, designed to make planning events such as weddings easier. My focus is on backend development to ensure efficiency and data security. This application provides a user-friendly interface and serves as an effective tool for event organizers in managing various aspects of events easily.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

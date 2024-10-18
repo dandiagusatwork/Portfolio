@@ -39,6 +39,8 @@ export const BentoGridItem = ({
   //   remove unecessary things here
   img,
   imgClassName,
+  width,
+  height,
   titleClassName,
   spareImg,
 }: {
@@ -47,6 +49,8 @@ export const BentoGridItem = ({
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
   img?: string;
+  width?: number; // width bertipe number
+  height?: number;
   imgClassName?: string;
   titleClassName?: string;
   spareImg?: string;
@@ -90,6 +94,8 @@ export const BentoGridItem = ({
         <div className="w-full h-full absolute">
           {img && (
             <Image
+              width={500}
+              height={300}
               src={img}
               alt={img}
               className={cn(imgClassName, "object-cover object-center ")}
@@ -102,6 +108,8 @@ export const BentoGridItem = ({
           } `}>
           {spareImg && (
             <Image
+              width={500}
+              height={300}
               src={spareImg}
               alt={spareImg}
               //   width={220}
